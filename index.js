@@ -1,6 +1,5 @@
 const {Client, Attachment} = require('discord.js');
-const {prefix, token} = require('./config.json');
-
+const { prefix, token } = require('./config.json');
 const bot = new Client();
 
 bot.once('ready', ()=>{
@@ -117,7 +116,4 @@ bot.on('message', message =>{
 
 
 
-bot.login(token);'
-          
-          
-          
+bot.login(token);

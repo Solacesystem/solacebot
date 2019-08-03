@@ -1,0 +1,7 @@
+{
+    "name": "Node.js Getting Started",
+    "repository:": "https://github.com/heroku/node-js-gettig-started",
+    "logo": "https://node-js-sample.herokuapp.con/node.svg",
+    "keywords": ["node", "express", "static"],
+    "image": "heeroku.nodejs"
+}
