@@ -1,6 +1,6 @@
 const {Client, Attachment} = require('discord.js');
-const { prefix} = require('./config.json');
-const {token} = process.amv.arcadia
+const {prefix, token} = require('./config.json');
+
 const bot = new Client();
 
 bot.once('ready', ()=>{
@@ -117,7 +117,7 @@ bot.on('message', message =>{
 
 
 
-bot.login(process.amv.token);
+bot.login(token);'
           
           
           
